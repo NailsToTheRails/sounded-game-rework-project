@@ -1,0 +1,1 @@
+room_just_changed = 1
