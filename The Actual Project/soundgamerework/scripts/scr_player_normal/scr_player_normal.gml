@@ -294,13 +294,13 @@ function scr_player_machdownprep()
     if (sprite_index != spr_divebomb) 
     {
       sprite_index = spr_divebomb
-      image_speed = 0.35
+      image_speed = 0.3
       image_index = 0    
     } 
     else 
     {
       vsp = approach(vsp, 0, 0.45)    
-      hsp = approach(hsp, move * 2, 0.95)
+      hsp = approach(hsp, 0, 0.95)
       if (image_index > 2) && (image_index < 4) {
           vsp += -1.5
       }
@@ -315,6 +315,7 @@ function scr_player_machdownprep()
 
 function scr_player_machdown() {
 var move = (keyboard_check(vk_right) - keyboard_check(vk_left))
+image_speed = 0.35
 if (sprite_index == spr_diveingbomb) {
     vsp = approach(vsp,  18, 0.75)
     hsp = approach(hsp, move * 1, 0.55)

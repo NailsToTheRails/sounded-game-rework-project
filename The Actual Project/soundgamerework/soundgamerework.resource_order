@@ -209,6 +209,7 @@
     {"name":"bg_snow","order":16,"path":"sprites/bg_snow/bg_snow.yy",},
     {"name":"spr_unownMovingPlatform","order":6,"path":"sprites/spr_unownMovingPlatform/spr_unownMovingPlatform.yy",},
     {"name":"tile_eternalgale","order":2,"path":"tilesets/tile_eternalgale/tile_eternalgale.yy",},
+    {"name":"spr_sound_divingbomb","order":13,"path":"sprites/spr_sound_divingbomb/spr_sound_divingbomb.yy",},
     {"name":"scribble_font_delete","order":5,"path":"scripts/scribble_font_delete/scribble_font_delete.yy",},
     {"name":"spr_tutorialsign","order":15,"path":"sprites/spr_tutorialsign/spr_tutorialsign.yy",},
     {"name":"__shd_scribble_bake_shadow","order":4,"path":"shaders/__shd_scribble_bake_shadow/__shd_scribble_bake_shadow.yy",},

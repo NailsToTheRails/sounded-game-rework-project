@@ -250,6 +250,7 @@
     {"id":{"name":"bg_snow","path":"sprites/bg_snow/bg_snow.yy",},},
     {"id":{"name":"spr_unownMovingPlatform","path":"sprites/spr_unownMovingPlatform/spr_unownMovingPlatform.yy",},},
     {"id":{"name":"tile_eternalgale","path":"tilesets/tile_eternalgale/tile_eternalgale.yy",},},
+    {"id":{"name":"spr_sound_divingbomb","path":"sprites/spr_sound_divingbomb/spr_sound_divingbomb.yy",},},
     {"id":{"name":"scribble_font_delete","path":"scripts/scribble_font_delete/scribble_font_delete.yy",},},
     {"id":{"name":"spr_tutorialsign","path":"sprites/spr_tutorialsign/spr_tutorialsign.yy",},},
     {"id":{"name":"bg_pepdialog","path":"sprites/bg_pepdialog/bg_pepdialog.yy",},},
