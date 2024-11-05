@@ -11,6 +11,7 @@ function scr_init_states()
 		slide,
 		machturn,
 		wallrun,
-		machdown
+		machdown,
+		machdownprep
 	}
 }

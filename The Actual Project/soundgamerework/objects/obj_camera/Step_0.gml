@@ -21,7 +21,7 @@ if (instance_exists(obj_player))
         cam_x += irandom_range((-shake_mag), shake_mag)
         cam_y += irandom_range((-shake_mag), shake_mag)
     }
-    camera_set_view_pos(view_camera[0], lerp(cam_x, camera_get_view_x(view_camera[0]), 0.3), (lerp(cam_y, camera_get_view_y(view_camera[0]), 0.3) + irandom_range((-shake_mag), shake_mag)))
+    camera_set_view_pos(view_camera[0], lerp(cam_x, camera_get_view_x(view_camera[0]), 0.5), (lerp(cam_y, camera_get_view_y(view_camera[0]), 0.5) + irandom_range((-shake_mag), shake_mag)))
 	camera_set_view_size(view_camera[0], 960/targetzoom, 540/targetzoom	)
 	
 }

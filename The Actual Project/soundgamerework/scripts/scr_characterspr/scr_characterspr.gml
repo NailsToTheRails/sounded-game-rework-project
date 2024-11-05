@@ -17,6 +17,9 @@ function scr_characterspr(){
 		spr_mach3air = spr_sound_fall
 		spr_machturn = spr_sound_machturn
 		spr_machturnfall = spr_sound_fall
+		spr_divebomb = spr_sound_divebomb //Bombs Away Bitch
+		spr_diveingbomb = spr_sound_hurt
+		spr_machslide = spr_sound_mask
 		break;
 	}
 }

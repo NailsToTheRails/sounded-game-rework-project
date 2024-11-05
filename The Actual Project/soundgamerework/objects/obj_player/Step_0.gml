@@ -10,4 +10,5 @@ switch (state)
 	case states.machturn: scr_player_machturn() break
 	case states.wallrun: scr_player_wallrun() break
 	case states.machdown: scr_player_machdown() break
+	case states.machdownprep: scr_player_machdownprep() break
 } 
