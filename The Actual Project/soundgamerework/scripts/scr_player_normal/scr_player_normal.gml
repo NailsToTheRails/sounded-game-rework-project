@@ -200,7 +200,7 @@ function scr_player_slide(){
 	sprite_index = spr_machslidestartup
 	image_speed = 0.3
 	image_index = 0
-	} 
+	}
 	if (sprite_index == spr_machslidestartup && animation_end()) {
 		image_speed = 0.3
 		sprite_index = spr_machslide	
