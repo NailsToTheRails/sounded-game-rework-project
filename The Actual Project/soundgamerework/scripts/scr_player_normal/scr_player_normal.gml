@@ -196,7 +196,15 @@ function scr_player_mach(){
 
 function scr_player_slide(){
 	mask_index = spr_sound_slideingmask
-	sprite_index = spr_machslide
+	if (sprite_index != spr_machslidestartup) {
+	sprite_index = spr_machslidestartup
+	image_speed = 0.3
+	image_index = 0
+	} 
+	if (sprite_index == spr_machslidestartup && animation_end()) {
+		image_speed = 0.3
+		sprite_index = spr_machslide	
+	}
 	var move = (keyboard_check(vk_right) - keyboard_check(vk_left))
 		switch (mach) {
 	case 0: // init
@@ -294,7 +302,7 @@ function scr_player_machdownprep()
     if (sprite_index != spr_divebomb) 
     {
       sprite_index = spr_divebomb
-      image_speed = 0.3
+      image_speed = 0.45
       image_index = 0    
     } 
     else 
