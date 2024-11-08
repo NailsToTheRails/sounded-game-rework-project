@@ -1,5 +1,4 @@
-scr_collision()
-
+scr_collide();
 switch (state)
 {
 	case states.normal: scr_player_normal() break

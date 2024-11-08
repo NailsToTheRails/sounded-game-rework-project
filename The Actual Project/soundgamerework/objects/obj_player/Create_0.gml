@@ -1,4 +1,3 @@
-scr_collision_init();
 function scr_slope_angle(slope_id)
 {
 	var angle = 0;
@@ -13,11 +12,16 @@ function scr_slope_angle(slope_id)
 }
 old_y = y;
 old_x = x;
-_hcarry = 0
-_vcarry = 0
+hsp_carry = 0
+vsp_carry = 0
+hsp = 0
+vsp = 0
 mach = 0
+mach2 = 0
 grav = GRAVITY_DEFAULT
 character = "S" // s = sound | c = chef
+movementhsp = 0
 state = states.normal
 angle = 0
 scr_characterspr();
+scr_collide();

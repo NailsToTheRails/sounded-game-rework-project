@@ -6,13 +6,10 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Collision",
-    "path": "folders/Objects/Unown Collisions/Collision.yy",
+    "name": "room layout",
+    "path": "folders/Objects/room layout.yy",
   },
-  "parentObjectId": {
-    "name": "par_collision",
-    "path": "objects/par_collision/par_collision.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -29,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_unownPlatform",
-    "path": "sprites/spr_unownPlatform/spr_unownPlatform.yy",
+    "name": "spr_baddie",
+    "path": "sprites/spr_baddie/spr_baddie.yy",
   },
   "spriteMaskId": null,
   "visible": true,

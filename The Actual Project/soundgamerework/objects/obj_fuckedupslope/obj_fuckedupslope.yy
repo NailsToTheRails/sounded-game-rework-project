@@ -1,15 +1,18 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_slope",
+  "name": "obj_fuckedupslope",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "room layout",
-    "path": "folders/Objects/room layout.yy",
+    "name": "special solids",
+    "path": "folders/Objects/room layout/special solids.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_slope",
+    "path": "objects/obj_slope/obj_slope.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -26,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_slope",
-    "path": "sprites/spr_slope/spr_slope.yy",
+    "name": "spr_fuckedupslope",
+    "path": "sprites/spr_fuckedupslope/spr_fuckedupslope.yy",
   },
   "spriteMaskId": null,
   "visible": true,
