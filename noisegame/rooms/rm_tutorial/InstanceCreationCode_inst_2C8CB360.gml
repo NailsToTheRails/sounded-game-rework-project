@@ -1,0 +1,1 @@
+text = "This is a Armored\nMetal Block. It has HP."

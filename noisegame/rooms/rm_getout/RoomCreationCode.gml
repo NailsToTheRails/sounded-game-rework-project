@@ -1,0 +1,1 @@
+global.noifacespr = spr_noifaceescape;

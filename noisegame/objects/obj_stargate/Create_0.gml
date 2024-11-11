@@ -1,0 +1,9 @@
+levelname = "testeing!"
+level = "test"
+global.level = "test"
+roomname = rm_test
+hub = rm_hub1
+collided = 1
+depth = 25
+lvlscore = 0
+lvlrank = "D"

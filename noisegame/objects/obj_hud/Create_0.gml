@@ -1,0 +1,11 @@
+combospr = 0
+global.noifacespr = spr_noiface
+global.tvmessage = ""
+showmessage = false
+rankindex = 0
+appraovchvar = 0
+global.debugmemory = debug_event("DumpMemory", true).totalUsed;
+global.debugmemory_difference = 0;
+global.debugtick = 0;
+global.rank = "D"
+global.srank = 2500

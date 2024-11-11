@@ -1,0 +1,1 @@
+text = "This is a launch orb.\nIt boosts you up."
