@@ -8,7 +8,7 @@ instance_activate_all()
 if ((!pause) && key_start)
 {
 	scroll = 0
-	pausemenunoise = random_range(0,3)
+	pausemenunoise = irandom_range(0,5)
 	pause = true
 }
 if (pause)

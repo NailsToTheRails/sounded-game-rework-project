@@ -1,3 +1,5 @@
+
+
 if (global.debugtick++ % game_get_speed(gamespeed_fps) == 0) {
 	var memory_new = debug_event("DumpMemory", true).totalUsed;
 	global.debugmemory_difference = memory_new - global.debugmemory;

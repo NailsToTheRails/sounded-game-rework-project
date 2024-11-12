@@ -11,7 +11,7 @@ if (ImGui.Begin("Debugger Window Very Important")) {
 	));	
 	}
 	if (instance_exists(obj_sound)) {
-		ImGui.Text(string("SoundHUD: {0}\nSoundHP: {1}\nroomname: {2}\nVSP: {3}\nHSP: {4}\nInvincibility: {5}\nJumpHeight: {6}\nRank: {7}\nSRankReq: {8}\nMove: {9}\nSolidView: {10}",
+		ImGui.Text(string("SoundState: {11}\nSoundHUD: {0}\nSoundHP: {1}\nroomname: {2}\nVSP: {3}\nHSP: {4}\nInvincibility: {5}\nJumpHeight: {6}\nRank: {7}\nSRankReq: {8}\nMove: {9}\nSolidView: {10}",
 		sprite_get_name(global.noifacespr),
 		global.soundhp,
 		room_get_name(room),
@@ -22,7 +22,8 @@ if (ImGui.Begin("Debugger Window Very Important")) {
 		global.rank,
 		global.srank,
 		obj_sound.move,
-		global.solidview
+		global.solidview,
+		obj_sound.state
 	));
 	if (ImGui.Button("KILL THE SOUND")) {
 		global.soundhp = 0

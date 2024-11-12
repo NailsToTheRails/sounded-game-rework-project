@@ -1,7 +1,10 @@
+scr_init_states()
 global.key = false
 walkspeed = 5
 grounded = 0
 invincible = 0
+cutscene = 0
+state = states.normal
 hsp = 0
 vsp = 0
 move = 0

@@ -6,3 +6,15 @@ function scr_init(){
 	scribble_font_bake_outline_8dir_2px("fnt_comicBIG", "fnt_comicOUTLINEBIG", c_black, false)
 	scribble_font_bake_outline_8dir_2px("fnt_comic", "fnt_comicOUTLINESMALL", c_black, false)
 }
+
+function scr_init_states()
+{
+	enum states
+	{
+		normal,
+		jump,
+		fireass,
+		cutscenestate,
+		death
+	}
+}
