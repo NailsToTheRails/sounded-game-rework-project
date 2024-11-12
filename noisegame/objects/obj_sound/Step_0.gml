@@ -12,7 +12,8 @@ switch (state)
 				hsp = approach(hsp, (move * walkspeed), 1)
 			} else {
 			sprite_index = spr_sound_run
-				hsp = approach(hsp, (move * walkspeed * 1.45), 1)	
+			    machlevel = 1
+				state = states.mach1
 			}
 		}
 		else {
@@ -66,7 +67,28 @@ switch (state)
 	case states.death:
 	// Do 0
 	break
-} 
+	case states.mach1:
+	{
+	if keyboard_check(key_sprint) & machlevel = 1
+	sprite_index = spr_sound_run
+	if (walkspeed <= 8)
+	   walkspeed += 0.075;
+	else if (walkspeed >= 8)
+    if (walkspeed >= 8)
+	   machlevel = 2
+	   state = states.mach2
+    if keyboard_check_released(vk_shift)
+	   state = states.normal
+	}
+	break
+	case states.mach2:
+    {
+    if keyboard_check(key_sprint) & machlevel = 2
+	   walkspeed = approach(walkspeed, 14, 0.04)
+	else if keyboard_check_released(key_sprint)
+	   machlevel = 1
+	   state = states.normal
+    } 
 if (!dead) {
 scr_collision();
 // normal movement shit
@@ -92,4 +114,4 @@ else {
 }
 
          
-            
+}       

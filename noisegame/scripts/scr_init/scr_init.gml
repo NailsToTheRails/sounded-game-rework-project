@@ -15,6 +15,8 @@ function scr_init_states()
 		jump,
 		fireass,
 		cutscenestate,
-		death
+		death,
+		mach1,
+		mach2
 	}
 }

@@ -12,6 +12,7 @@ dead = false
 jumpheight = -13
 water = 0
 movelock = false
+machlevel = 1
 global.soundhp = 8
 global.score = 0
 depth = 0
