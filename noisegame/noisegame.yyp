@@ -95,7 +95,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.6.0.92",
   },
   "resources": [
     {"id":{"name":"spr_superlaunch","path":"sprites/spr_superlaunch/spr_superlaunch.yy",},},
@@ -435,7 +435,6 @@
     {"roomId":{"name":"rm_hardohub","path":"rooms/rm_hardohub/rm_hardohub.yy",},},
     {"roomId":{"name":"rm_hardovial","path":"rooms/rm_hardovial/rm_hardovial.yy",},},
   ],
-  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],

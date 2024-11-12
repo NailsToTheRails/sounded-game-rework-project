@@ -88,9 +88,14 @@ switch (state)
 	else if keyboard_check_released(key_sprint)
 	   machlevel = 1
 	   state = states.normal
-    } 
+    }          
+}   
 if (!dead) {
 scr_collision();
+scr_throwbombinator();
+scr_movementlock();
+soliddebugvisiblier();
+scr_dothisshitiguess();
 // normal movement shit
 if (!movelock)
 	move = key_right - key_left
@@ -101,17 +106,10 @@ movelock = true
 dead = true
 instance_create(x,y,obj_sounddie) 
 }
+
 global.soundhp = clamp(global.soundhp,0,8)
-scr_movementlock(); //movement lock check (hsp 0 vsp 0)
-scr_dothisshitiguess(); // wind & water checker
-scr_throwbombinator(); // perry this is my throw bomb inator
-soliddebugvisiblier(); // does What it says Fucking Stpuid iIdot PLEASE
-} 
-else {
+}  else {
 	state = states.death
 	hsp = 0
 	vsp = 0
 }
-
-         
-}       
