@@ -7,6 +7,11 @@ if (!audio_is_playing(argument0))
 }
 }
 
+function scr_sound3D(sound, x, y)
+{
+    return audio_play_sound_at(sound, -x, y, 1000, 1000, 0, 3, false, 1, 1);
+}
+
 function string_contains(_str, _substr) 
 {
     return string_pos(_substr, _str) > 0;

@@ -31,6 +31,9 @@ switch room
 	case rm_hardohub:
 		scr_music(mu_hardohub)
 	break
+	case rm_subtertest:
+	scr_music(mu_sub_inst)
+	break
 	default:
 		scr_music(mu_hub)
 	break

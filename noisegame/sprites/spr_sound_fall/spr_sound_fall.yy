@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "PLR",
-    "path": "folders/Sprites/PLR.yy",
+    "name": "Sound",
+    "path": "folders/Sprites/PLR/Sound.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

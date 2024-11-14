@@ -71,6 +71,9 @@ switch (state)
 	if keyboard_check(key_sprint) & machlevel = 1
 	sprite_index = spr_sound_run
 	if (machlevel = 1) {
+		if (hsp = 0) {
+			hsp = 1 * image_xscale
+		}
 	if sign(hsp) == image_xscale && abs(hsp) < 8
 	   hsp = approach(hsp, 9 * image_xscale, 0.1)
 	} else if (sign(hsp) == image_xscale && abs(hsp) > 8) {

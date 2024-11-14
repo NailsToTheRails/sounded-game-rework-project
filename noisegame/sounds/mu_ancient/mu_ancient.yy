@@ -12,8 +12,8 @@
   "conversionMode": 0,
   "duration": 109.090904,
   "parent": {
-    "name": "Music",
-    "path": "folders/Sounds/Music.yy",
+    "name": "F1",
+    "path": "folders/Sounds/Music/F1.yy",
   },
   "preload": false,
   "sampleRate": 44100,

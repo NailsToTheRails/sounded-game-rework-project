@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "mu_tutorial",
+  "name": "mu_sub_inst",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 37.295555,
+  "duration": 184.608,
   "parent": {
-    "name": "F1",
-    "path": "folders/Sounds/Music/F1.yy",
+    "name": "Test",
+    "path": "folders/Sounds/Music/Title + Misc/Test.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "mu_tutorial.ogg",
+  "soundFile": "mu_sub_inst.mp3",
   "type": 0,
   "volume": 1.0,
 }
