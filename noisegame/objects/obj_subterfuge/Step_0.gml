@@ -1,6 +1,7 @@
 if instance_exists(obj_sound) {
-x = approach(x,obj_sound.x,evil)	
-y = approach(y,obj_sound.y,evil)	
+var dir = point_direction(x, y, obj_sound.x, obj_sound.y);
+x += lengthdir_x(evil, dir);
+y += lengthdir_y(evil, dir);	
 audio_listener_position(obj_sound.x,obj_sound.y,1000)
 }
 audio_emitter_position(ad,x,y,1000)
