@@ -1,6 +1,7 @@
 levelname = "testeing!"
 level = "test"
 global.level = "test"
+global.subtermode = 0
 roomname = rm_test
 hub = rm_hub1
 collided = 1

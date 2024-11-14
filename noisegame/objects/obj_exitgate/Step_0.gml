@@ -5,7 +5,7 @@ if (place_meeting(x,y,obj_sound)) {
 	if (!locked) {
 		global.tvmessage = "[rainbow]YOU CAN GO IN!"
 	} else {
-		global.tvmessage = "[c_red]YOU CANNOT GO IN YET!"
+		global.tvmessage = "[c_red][wave]YOU CANNOT GO IN YET!"
 	}
 	if (instance_exists(obj_hud)) {
 			obj_hud.showmessage = true	

@@ -80,7 +80,7 @@ switch (state)
 	   machlevel = 2
 	}
 	else {
-		hsp = approach(hsp, 14 * image_xscale, 0.06)
+		hsp = approach(hsp, 9 * machlevel * image_xscale, 0.06)
 	}
     if keyboard_check_released(vk_shift) {
 	   state = states.normal
@@ -91,12 +91,19 @@ switch (state)
 		 if (sign(hsp) == image_xscale && abs(hsp) < 2) {
 			  turning = 0
 			 hsp = 6 * image_xscale
+	} else {
+	hsp = approach(hsp, 9 * machlevel * image_xscale, 0.1)	
 	}
 	 }
 	   if sign(move) != image_xscale && sign(move) != 0 {
 		   turning = 1
 		   	  image_xscale = -image_xscale
 	   }
+	  	if (key_jump && grounded && !movelock) {
+			sprite_index = spr_sound_jump
+			vsp = jumpheight / 1.2
+			state = states.jump
+		}
 	break
 }   
 if (!dead) {

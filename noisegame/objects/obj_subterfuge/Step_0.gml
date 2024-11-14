@@ -1,6 +1,6 @@
 if instance_exists(obj_sound) {
-x = lerp(x,obj_sound.x,evil)	
-y = lerp(y,obj_sound.y,evil)	
+x = approach(x,obj_sound.x,evil)	
+y = approach(y,obj_sound.y,evil)	
 audio_listener_position(obj_sound.x,obj_sound.y,1000)
 }
 audio_emitter_position(ad,x,y,1000)
