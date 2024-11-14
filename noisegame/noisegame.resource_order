@@ -73,6 +73,7 @@
     {"name":"Timelines","order":7,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"mu_ancient","order":12,"path":"sounds/mu_ancient/mu_ancient.yy",},
     {"name":"spr_superlaunch","order":9,"path":"sprites/spr_superlaunch/spr_superlaunch.yy",},
     {"name":"__shd_scribble_bake_outline_4dir","order":1,"path":"shaders/__shd_scribble_bake_outline_4dir/__shd_scribble_bake_outline_4dir.yy",},
     {"name":"draw_text_scribble_ext","order":1,"path":"scripts/draw_text_scribble_ext/draw_text_scribble_ext.yy",},

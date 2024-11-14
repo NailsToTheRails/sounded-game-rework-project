@@ -68,27 +68,33 @@ switch (state)
 	// Do 0
 	break
 	case states.mach1:
-	{
 	if keyboard_check(key_sprint) & machlevel = 1
 	sprite_index = spr_sound_run
-	if (walkspeed <= 8)
-	   walkspeed += 0.075;
-	else if (walkspeed >= 8)
-    if (walkspeed >= 8)
+	if (machlevel = 1) {
+	if sign(hsp) == image_xscale && abs(hsp) < 8
+	   hsp = approach(hsp, 9 * image_xscale, 0.1)
+	} else if (sign(hsp) == image_xscale && abs(hsp) > 8) {
 	   machlevel = 2
-	   state = states.mach2
-    if keyboard_check_released(vk_shift)
-	   state = states.normal
 	}
-	break
-	case states.mach2:
-    {
-    if keyboard_check(key_sprint) & machlevel = 2
-	   walkspeed = approach(walkspeed, 14, 0.04)
-	else if keyboard_check_released(key_sprint)
-	   machlevel = 1
+	else {
+		hsp = approach(hsp, 14 * image_xscale, 0.06)
+	}
+    if keyboard_check_released(vk_shift) {
 	   state = states.normal
-    }          
+	 turning = 0  
+	}
+	 if (turning) {
+	   hsp = approach(hsp, 2 * image_xscale, 0.8)
+		 if (sign(hsp) == image_xscale && abs(hsp) < 2) {
+			  turning = 0
+			 hsp = 6 * image_xscale
+	}
+	 }
+	   if sign(move) != image_xscale && sign(move) != 0 {
+		   turning = 1
+		   	  image_xscale = -image_xscale
+	   }
+	break
 }   
 if (!dead) {
 scr_collision();

@@ -98,6 +98,7 @@
     "IDEVersion": "2023.6.0.92",
   },
   "resources": [
+    {"id":{"name":"mu_ancient","path":"sounds/mu_ancient/mu_ancient.yy",},},
     {"id":{"name":"spr_superlaunch","path":"sprites/spr_superlaunch/spr_superlaunch.yy",},},
     {"id":{"name":"spr_noiface","path":"sprites/spr_noiface/spr_noiface.yy",},},
     {"id":{"name":"__shd_scribble_bake_outline_4dir","path":"shaders/__shd_scribble_bake_outline_4dir/__shd_scribble_bake_outline_4dir.yy",},},
