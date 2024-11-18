@@ -23,7 +23,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4f093c09-d074-4f71-b980-893ab038257b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 4,
+  "origin": 9,
   "parent": {
     "name": "gates",
     "path": "folders/Sprites/OBJ/gates.yy",
@@ -60,7 +60,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 100,
-    "yorigin": 100,
+    "yorigin": 101,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,

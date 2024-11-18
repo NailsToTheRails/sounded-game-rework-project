@@ -17,9 +17,9 @@ if (instance_exists(obj_timer)) {
 	draw_text_scribble(camera_get_view_width(view_camera[0])/2,30,"[fnt_comicOUTLINEBIG][wheel]" + drawcolor + string(global.time) + "'[fnt_comicOUTLINESMALL]" + string(global.miliseconds));
 	draw_set_halign(fa_left)
 }
-draw_sprite(global.noifacespr,0,70,59)
-if (room = rm_hub1) 	
+if (room = string_contains(room_get_name(room),"rm_hub") || room = rm_hubP)
 exit;
+draw_sprite(global.noifacespr,0,70,59)
 draw_sprite(spr_combotv,combospr,352,367)
 draw_sprite(spr_hpbar,global.soundhp,61,438)
 draw_text_scribble(50,410,"[wave][fnt_comicOUTLINEBIG]" + string(global.soundhp))

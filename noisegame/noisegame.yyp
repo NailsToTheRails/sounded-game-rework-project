@@ -94,6 +94,8 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Unown Collision","folderPath":"folders/Sprites/Unown Collision.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"PlaytesterBranch","folderPath":"folders/Rooms/PlaytesterBranch.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Playtesters","folderPath":"folders/Sounds/Music/Title + Misc/Playtesters.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"LICENSE.txt","CopyToMask":-1,"filePath":"datafiles/fonts",},
@@ -297,6 +299,7 @@
     {"id":{"name":"scr_collisionLibraryPhysics","path":"scripts/scr_collisionLibraryPhysics/scr_collisionLibraryPhysics.yy",},},
     {"id":{"name":"scribble_super_glyph_copy_all","path":"scripts/scribble_super_glyph_copy_all/scribble_super_glyph_copy_all.yy",},},
     {"id":{"name":"spr_outlet","path":"sprites/spr_outlet/spr_outlet.yy",},},
+    {"id":{"name":"mu_playtesterhub","path":"sounds/mu_playtesterhub/mu_playtesterhub.yy",},},
     {"id":{"name":"bg_galaxy","path":"sprites/bg_galaxy/bg_galaxy.yy",},},
     {"id":{"name":"__scribble_get_macros_map","path":"scripts/__scribble_get_macros_map/__scribble_get_macros_map.yy",},},
     {"id":{"name":"__scribble_tick","path":"scripts/__scribble_tick/__scribble_tick.yy",},},
@@ -425,6 +428,7 @@
     {"id":{"name":"spr_exitgate","path":"sprites/spr_exitgate/spr_exitgate.yy",},},
     {"id":{"name":"spr_sound_run","path":"sprites/spr_sound_run/spr_sound_run.yy",},},
     {"id":{"name":"ts_entrance","path":"sprites/ts_entrance/ts_entrance.yy",},},
+    {"id":{"name":"rm_hubP","path":"rooms/rm_hubP/rm_hubP.yy",},},
     {"id":{"name":"__scribble_config_behaviours","path":"scripts/__scribble_config_behaviours/__scribble_config_behaviours.yy",},},
     {"id":{"name":"obj_exitgate","path":"objects/obj_exitgate/obj_exitgate.yy",},},
     {"id":{"name":"scribble_super_glyph_copy","path":"scripts/scribble_super_glyph_copy/scribble_super_glyph_copy.yy",},},
@@ -450,6 +454,7 @@
     {"roomId":{"name":"rm_hardohub","path":"rooms/rm_hardohub/rm_hardohub.yy",},},
     {"roomId":{"name":"rm_hardovial","path":"rooms/rm_hardovial/rm_hardovial.yy",},},
     {"roomId":{"name":"rm_subtertest","path":"rooms/rm_subtertest/rm_subtertest.yy",},},
+    {"roomId":{"name":"rm_hubP","path":"rooms/rm_hubP/rm_hubP.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

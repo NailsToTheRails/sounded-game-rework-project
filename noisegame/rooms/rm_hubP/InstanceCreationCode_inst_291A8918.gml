@@ -1,0 +1,1 @@
+text = "all the levels for [wave][rainbow]world 1"

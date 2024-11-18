@@ -1,0 +1,1 @@
+text = "[c_white]Welcome [rainbow][wave]Playtesters![/rainbow][/wave] to the\nplaytesterhub"

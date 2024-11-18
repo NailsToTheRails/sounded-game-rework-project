@@ -34,6 +34,9 @@ switch room
 	case rm_subtertest:
 	scr_music(mu_sub_inst)
 	break
+	case rm_hubP:
+		scr_music(mu_playtesterhub)
+	break
 	default:
 		scr_music(mu_hub)
 	break

@@ -79,6 +79,8 @@
     {"name":"Unown Collision","order":2,"path":"folders/Sprites/Unown Collision.yy",},
     {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":7,"path":"folders/Timelines.yy",},
+    {"name":"PlaytesterBranch","order":8,"path":"folders/Rooms/PlaytesterBranch.yy",},
+    {"name":"Playtesters","order":7,"path":"folders/Sounds/Music/Title + Misc/Playtesters.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_superlaunch","order":9,"path":"sprites/spr_superlaunch/spr_superlaunch.yy",},
